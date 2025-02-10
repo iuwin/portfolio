@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erwin Amper - Portfolio</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css"/>
+    <style>
+            .swiper {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: calc((100% - 30px) / 2) !important;
+
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="header-brand-container">
+                    <p>erwin<span class="color-blue">.dev</span></p>
+                </div>
+                <div class="header-menu-container">
+                    <ul class="header-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Experience</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <!--<li><a href="#" class="btn-blue header-resume-cta">Download CV</a></li>-->
+                    </ul>
+                    <div class="mobile-menu-container">
+                        <div id="mobile-menu-toggle">
+                            <input type="checkbox" id="menuCheckbox">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            
+                            <ul class="mobile-menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Experience</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-cta-container">
+                    <a href="#" class="btn-blue header-resume-cta">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-section-content">
+                <div data-aos="fade-right" data-aos-delay="200" class="hero-introduction">
+                    <h3>Erwin Amper</h3>
+                    <h5><span>Web Developer</span></h5>
+                    <p>I design and develop modern, user-friendly websites that are<br>visually appealing, fast, and intuitive. Let’s build something amazing together!</p>
+                    <a class="btn-blue hero-intro-btn" href="#">Connect With Me</a>
+                </div>
+                <div class="hero-image">
+                    <div data-aos="fade-left" data-aos-delay="200" class="hero-image-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-section">
+        <div class="container">
+            <div class="about-section-content">
+                <div data-aos="fade-up" class="about-info">
+                    <h4>About Me</h4>
+                    <p>Passionate web developer with 2+ years of experience of creating responsive, user-friendly websites. Skilled in both front-end and back-end development, focusing on performance and seamless user experiences. Some of the stacks that I use are:</p>
+                </div>
+                <div class="about-skills">
+                    <div class="about-skills-list">
+                        <div data-aos="fade-up" class="about-skills-item item-big">
+                            <img src="assets/images/html5.png">
+                            <h5>HTML5</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="100" class="about-skills-item item-big">
+                            <img src="assets/images/css3.png">
+                            <h5>CSS3</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="150" class="about-skills-item item-big">
+                            <img src="assets/images/javascript2.png">
+                            <h5>JavaScript</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="200" class="about-skills-item">
+                            <img src="assets/images/php.png">
+                            <h5>PHP</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="250" class="about-skills-item item-big">
+                            <img src="assets/images/wordpress.png">
+                            <h5>Wordpress</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="300" class="about-skills-item">
+                            <img src="assets/images/laravel.png">
+                            <h5>Laravel</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="350" class="about-skills-item">
+                            <img src="assets/images/reactjs.png">
+                            <h5>React.js</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="400" class="about-skills-item">
+                            <img src="assets/images/tailwind.png">
+                            <h5>Tailwind</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="450" class="about-skills-item">
+                            <img src="assets/images/sass.png">
+                            <h5>Sass</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience-section">
+        <div class="container">
+            <div class="experience-section-content">
+                <h4 data-aos="fade-up">Work Experience</h4>
+                <div class="experience-content">
+                    <div data-aos="fade-up" data-aos-delay="100" class="experience-item">
+                        <div class="date">October 2, 2024 - Present</div>
+                        <div class="position">Senior Web Developer</div>
+                        <div class="company">ADONPH INC.</div>
+                        <div class="details">In charge with DNS Management and push-live tasks. Troubleshooted website errors. Worked with shopify site revisions and wordpress website development</div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="150" class="experience-item">
+                        <div class="date">December 5, 2022 - October 1, 2024</div>
+                        <div class="position">Web Developer</div>
+                        <div class="company">ADONPH INC.</div>
+                        <div class="details">Developed and maintained WordPress websites. Collaborated with designers, developers, and project managers to deliver seamless customer products.</div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="200" class="experience-item">
+                        <div class="date">July 2022 - November 2022</div>
+                        <div class="position">Web Developer</div>
+                        <div class="company">Freelance</div>
+                        <div class="details">Designed and developed user-friendly and mobile-responsive web applications (Capstone Projects) using React.js, Laravel, Tailwind, and some other js libraries.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-section-content">
+                <h4 data-aos="fade-up">Recent Projects</h4>
+                <div data-aos="fade-up" data-aos-delay="100" class="projects-content">
+                    <div>
+                        <a href="https://yannec.com/" target="_blank"><img src="assets/images/yannec.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://rejuven8cosmetix.com.au/" target="_blank"><img src="assets/images/rejuven8.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.aboderealestate.com.au/" target="_blank"><img src="assets/images/abode.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.carinegladesdentalcare.com.au/" target="_blank"><img src="assets/images/carine.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://beeleth.com.au/" target="_blank"><img src="assets/images/beeleth.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.austretail.com/" target="_blank"><img src="assets/images/ausretail.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://macleayislandbowlsclub.adondevelopment.com/" target="_blank"><img src="assets/images/clubmacleay.png"></a>
+                    </div>
+                    <div>
+                        <a href="https://wordpress-860337-3275540.cloudwaysapps.com/" target="_blank"><img src="assets/images/taxmate.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-section-content">
+                <h4 data-aos="fade-up">Get In Touch</h4>
+                <form data-aos="fade-up" data-aos-delay="100" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    <input type="hidden" name="access_key" value="e8b71d4c-077d-4f0c-943b-5e8f3c83d028">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button class="btn-blue form-btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-copyright">
+            © 2025 Erwin Amper. All rights reserved.
+        </div>
+        <div class="footer-socials">
+            
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
