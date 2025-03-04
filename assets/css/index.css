@@ -495,7 +495,7 @@ header {
     border-radius: 10px;
     gap: 5px;
     cursor: pointer;
-    transition: all cubic-bezier(.4,0,.2,1) .3s;
+    transition: all cubic-bezier(.4,0,.2,1) .3s !important;
     position: relative;
     z-index: 1;
 }
