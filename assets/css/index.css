@@ -487,21 +487,29 @@ header {
 .about-skills-item {
     flex: 0 0 15%;
     display: flex;
+    align-items: stretch;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.about-skills-card {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     padding: 20px;
     background: #455163;
     border-radius: 10px;
-    gap: 5px;
-    cursor: pointer;
-    transition: all cubic-bezier(.4,0,.2,1) .3s;
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
     position: relative;
     z-index: 1;
+    will-change: transform;
 }
 
-.about-skills-item:hover {
-    scale: 1.05;
+.about-skills-item:hover .about-skills-card {
+    transform: scale(1.05);
 }
 
 .about-skills-item.item-big img {
